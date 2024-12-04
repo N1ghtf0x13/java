@@ -1,0 +1,16 @@
+class Counter {
+  public int count;
+  
+  // init
+  public Counter(int num) {
+    count = num;
+  }
+  // add
+  public void add() {
+    count++;
+  }
+  // return
+  public int get() {
+    return count;
+  }
+}
